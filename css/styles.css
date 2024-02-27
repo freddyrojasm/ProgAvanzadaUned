@@ -1,0 +1,286 @@
+.h-cabecera {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-size: 45px;
+    background-image: url(../img/Paisaje.webp);
+    color: rgb(4, 4, 90)
+}
+
+article,
+aside,
+header,
+main,
+nav,
+section {
+    display: block
+}
+
+.h2-enlace a {
+    text-decoration: none;
+    color: rgba(3, 11, 85, 0.884);
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 20px;
+    line-height: 20px;
+    transition: color 0.3s ease;
+}
+
+h2 {
+    padding: 10px 10px;
+    padding-top: 20px;
+    height: 20px;
+    font-size: 18px;
+}
+
+.h2-reservas {
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 16px;
+    font-style: italic;
+    padding: 10px 10px;
+    padding-top: 20px;
+    height: 20px;
+}
+
+.f-fechabusq{
+  padding-bottom: 15px;  
+}
+
+p {
+    line-height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    text-align: justify;
+    word-break: normal;
+}
+
+
+/* Estilos para el contenedor del mapa */
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+
+.video {
+    padding-top: 30px;
+    text-align: center;
+    border-top: #085e35;
+}
+
+.menu {
+    background-color: #333;
+    padding: 10px 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* Centrar los elementos del menú */
+}
+
+article p {
+    padding: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    word-break: break-all;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: unset;
+    width: 490px;
+    height: 40px;
+    object-fit: contain;
+    word-break: normal;
+}
+
+article h2 {
+    padding: 10px 10px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    text-align: left;
+}
+
+article h3 {
+    padding: 10px 10px;
+    font-size: 18px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    min-width: 60px;
+    padding-right: 5px;
+    padding-left: 10px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    text-align: left;
+}
+
+/* Definir formatos de los enlaces */
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #e6b060;
+    cursor: pointer;
+}
+
+/* Sección de imágenes actividades */
+.actividades {
+    border-bottom: #3b9e70;
+    padding: 30px 30px;
+    height: 500px;
+    margin-right: 20px;
+}
+
+.img-actividades {
+    display: -webkit-inline-box;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-actividades img:first-child {
+    margin-right: 10px;
+}
+
+/* Sección de imágenes de biodiversidad */
+.biodiversidad {
+    border-bottom: #3b9e70;
+    padding: 30px 30px;
+    height: 500px;
+    margin-right: 20px;
+}
+
+.img-biodiversidad {
+    display: -webkit-inline-box;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-biodiversidad img:first-child {
+    margin-right: 10px;
+}
+
+button,
+.boton-mant input {
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #3b9e70;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #2980b9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.secciones-secund {
+    display: flex;
+    padding-left: 10px;
+}
+
+.coment {
+    padding-right: 25px;
+}
+
+textarea {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 180px;
+    margin-right: 20px;
+    border-style: dashed;
+    border-radius: 4px;
+    background-color: #dbdedf;
+    resize: none;
+}
+
+form {
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow:0 0 40px -10px #000;
+    margin: auto;
+    background-color: #ccc;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+form label {
+    width: 200px;
+    font-weight: bold;
+    display: inline-block;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.form-login input{
+padding-top: 15px;
+}
+
+/* Caja de búsqueda*/
+.div-busq {
+    padding-top: 25px;
+}
+
+.form-busqueda {
+    height: 20px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.redes-soc {
+    width: 48px;
+    position: fixed;
+    top: 50px;
+    right: 0;
+}
+
+footer p {
+    background-color: rgb(235, 235, 122);
+    padding-top: 15px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 2px;
+    text-align: center;
+    word-spacing: 1px;
+    font-family: monospace;
+    height: 20px;
+}

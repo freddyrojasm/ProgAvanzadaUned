@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title> Web API, Programación Avanzada en Web 03101 </title>
+    <meta name="description" content="Estructura básica de un sitio web con HTML5">
+    <meta charset="UTF-8">
+    <meta name="author" content="Freddy Rojas Martínez">
+    <link Rel="Shortcut icon" Href="img/vacaciones.png" type="image/x-icon">
+    <link Rel="StyleSheet"  Href="css/reset.css">
+    <link rel="Stylesheet" href="css/styles.css">
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="h-cabecera">
+        <h1><img src="img/Logo.png" width="100px" height="100px" alt="Imagen Header" /> Turismo TICO </h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="API Maps.html">Acceder al API</a></li>
+            </ul>
+    </nav>
+    </div>
+    <h3>Mostrar ubicación del sitio en el mapa</h3>
+    </header>
+
+    <main class="main">
+
+    <!-- Contenedor para mostrar el mapa -->
+    <div id="map"></div>
+
+    <script> 
+        // Función para cargar el mapa
+        
+        function initMap() {
+    // Coordenadas del centro del mapa (latitud y longitud)
+    var center = { lat: 10, lng: -84.0060 };
+
+    var mapOptions = {
+        center: center,
+        zoom: 10
+    };
+
+    // Crear un nuevo mapa
+    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+}
+
+    </script>
+
+    <!-- Incluir la API de Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWU_IOmNEnFJWVsqOB8ODg8fcJY7qsgCI&callback=initMap" async defer></script>
+
+           
+    </main>
+
+    <footer class="footer">
+        <p class="derechos">
+            Sitio web diseñado con fines didácticos. Elaborado por Freddy Rojas, Estudiante de Lic. Prog. Web
+        </p>
+        <p id="curso">
+            Uned, Curso Programación en Web, Cod. 03098, Nov 2023.
+        </p>
+    </footer>
+</body>
+
+</html>
